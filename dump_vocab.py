@@ -50,11 +50,14 @@ for idx, token in id_to_token.items():
 # Convert to DataFrame
 df = pd.DataFrame(vocab_data)
 
+# Add tokenizer name column
+df['tokenizer_name'] = 'o200k_base'
+
 # Sort by token_id to maintain order
 df = df.sort_values("token_id")
 
 # Save to CSV with detailed metadata
-df.to_csv("o200k_vocab_detailed.csv", index=False)
+df.to_csv("o200k_vocab_detailed.csv", index=False, lineterminator='\n')
 
 # Print some statistics
 print("\nVocabulary Statistics:")

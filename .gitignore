@@ -22,6 +22,7 @@ build/
 
 # Project specific
 *.csv
+!o200k_vocab_detailed.csv
 *.log
 
 # Jupyter Notebook
