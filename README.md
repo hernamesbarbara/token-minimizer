@@ -1,3 +1,5 @@
+```python
+
 In [1]: run dump_vocab.py
 
 Vocabulary Statistics:
@@ -29,3 +31,5 @@ ID:   17 | Length:  1 | Special: False | String: 2
 ID:   18 | Length:  1 | Special: False | String: 3
 ID:   19 | Length:  1 | Special: False | String: 4
 giraffe as tokens: [70, 2633, 34300]
+
+```
