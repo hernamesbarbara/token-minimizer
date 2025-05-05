@@ -22,6 +22,7 @@ build/
 
 # Project specific
 *.txt
+*.json
 *.csv
 !o200k_vocab_detailed.csv
 !word_summary.csv
